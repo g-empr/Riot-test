@@ -4,6 +4,7 @@
         <style>
           div {
             width: 100%;
+            height: 20px;
             background: rgba(200,200,200,0.5);
           }
         </style>
