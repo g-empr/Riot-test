@@ -16,21 +16,15 @@
         }
         li {
           display: inline-block;
-          padding: 4px 12px;
         }
         a {
           text-decoration: none;
           color: #222;
+          padding: 4px 12px;
         }
-        a:before {
-          content: '';
-          width: 0;
-          height: 10px;
-          background: rgba(0,0,0,0.7);
-          position: relative;
-        }
-        a:hover:before {
-          width: 100%;
+        a:hover {
+          background: #000;
+          color: #fff;
           transition: all .3s linear;
         }
       </style>
