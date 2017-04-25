@@ -1,14 +1,14 @@
     <itemlist>
       <ul>
         <li each={items}>
-          <a href="#">{title}</a>
+          <a href="{url}">{title}</a>
         </li>
       </ul>
 
       this.items = [
-        { title: 'First item' },
-        { title: 'Second item' },
-        { title: 'Third item' }
+        { title: 'TOP', url: 'hogehoge.jp' },
+        { title: 'PROFILE', url: 'hogehoge.jp' },
+        { title: 'WORKS', url: 'hogehoge.jp' }
       ]
       <style scoped>
         ul {
@@ -16,6 +16,7 @@
         }
         li {
           display: inline-block;
+          padding: 4px 12px;
         }
       </style>
     </itemlist>
