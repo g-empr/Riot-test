@@ -10,6 +10,14 @@
         { title: 'Second item' },
         { title: 'Third item' }
       ]
+      <style>
+        ul {
+          list-style-type: none;
+        }
+        li {
+          display: inline-block;
+        }
+      </style>
     </itemlist>
 
     <item>
