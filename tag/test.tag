@@ -13,6 +13,7 @@
       <style scoped>
         ul {
           list-style-type: none;
+          text-align: center;
         }
         li {
           display: inline-block;
