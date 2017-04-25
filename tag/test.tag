@@ -12,7 +12,7 @@
 
       <item>
         <h1>{title}</h1>
-        <p>{quote}</p>
+        <p>{caption}</p>
 
         this.title   = opts.title;
         this.caption = opts.caption;
