@@ -15,6 +15,7 @@
         ul {
           list-style-type: none;
           text-align: center;
+          width: 100%;
         }
         li {
           display: inline-block;
