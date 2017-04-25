@@ -26,6 +26,7 @@
           content: '';
           width: 0;
           height: 10px;
+          background: rgba(0,0,0,0.7);
           position: absolute;
         }
         a:hover:before {
