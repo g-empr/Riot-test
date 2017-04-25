@@ -16,15 +16,15 @@
         }
         li {
           display: inline-block;
-          border-left: 1px solid #000;
         }
-        li:last-child {
+        li:last-child a {
           border-right: 1px solid #000;
         }
         a {
           text-decoration: none;
           color: #222;
           padding: 4px 12px;
+          border-left: 1px solid #000;
         }
         a:hover {
           background: #000;
