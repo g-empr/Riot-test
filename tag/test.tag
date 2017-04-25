@@ -11,10 +11,10 @@
         { title: 'Third item' }
       ]
       <style>
-        ul {
+        ul:scope {
           list-style-type: none;
         }
-        li {
+        li:scope {
           display: inline-block;
         }
       </style>
