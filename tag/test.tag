@@ -18,6 +18,20 @@
           display: inline-block;
           padding: 4px 12px;
         }
+        a {
+          text-decoration: none;
+          color: #222;
+        }
+        a:before {
+          content: '';
+          width: 0;
+          height: 10px;
+          position: absolute;
+        }
+        a:hover:before {
+          width: 100%;
+          transition: all .3s linear;
+        }
       </style>
     </itemlist>
 
