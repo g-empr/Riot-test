@@ -1,4 +1,5 @@
-    <itemlist>
+    
+    <menu>
       <ul>
         <li each={items}>
           <a href="{url}">{title}</a>
@@ -24,7 +25,7 @@
         a {
           text-decoration: none;
           color: #222;
-          padding: 4px 12px;
+          padding: 4px 22px;
           border-left: 1px solid #000;
         }
         a:hover {
@@ -33,7 +34,7 @@
           transition: all .3s linear;
         }
       </style>
-    </itemlist>
+    </menu>
 
     <item>
       <h1>{title}</h1>
