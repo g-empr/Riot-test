@@ -27,7 +27,7 @@
           width: 0;
           height: 10px;
           background: rgba(0,0,0,0.7);
-          position: absolute;
+          position: relative;
         }
         a:hover:before {
           width: 100%;
