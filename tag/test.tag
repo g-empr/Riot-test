@@ -10,11 +10,11 @@
         { title: 'Second item' },
         { title: 'Third item' }
       ]
-      <style>
-        :scope ul {
+      <style scoped>
+        ul {
           list-style-type: none;
         }
-        :scope li {
+        li {
           display: inline-block;
         }
       </style>
