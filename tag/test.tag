@@ -5,6 +5,10 @@
           <a href="{url}">{title}</a>
         </li>
       </ul>
+
+      this.url   = opts.url;
+      this.title = opts.title;
+
       <style scoped>
         menu {
           padding: 0;
