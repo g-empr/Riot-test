@@ -5,6 +5,12 @@
           <a href="{url}">{title}</a>
         </li>
       </ul>
+
+      this.items = [
+        { title: 'TOP', url: 'hogehoge.jp' },
+        { title: 'PROFILE', url: 'hogehoge.jp' },
+        { title: 'WORKS', url: 'hogehoge.jp' }
+      ]
       
       <style scoped>
         menu {
