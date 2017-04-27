@@ -1,5 +1,5 @@
     
-    <menu>
+    <bar>
       <ul>
         <li each={items}>
           <a href="{url}">{title}</a>
@@ -13,7 +13,7 @@
       ]
 
       <style scoped>
-        menu {
+        bar {
           padding: 0 !important;
         }
         ul {
@@ -40,7 +40,7 @@
           transition: all .3s linear;
         }
       </style>
-    </menu>
+    </bar>
 
     <item>
       <h1>{title}</h1>
