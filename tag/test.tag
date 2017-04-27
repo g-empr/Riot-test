@@ -14,7 +14,7 @@
 
       <style scoped>
         menu {
-          padding: 0;
+          padding: 0 !important;
         }
         ul {
           list-style-type: none;
