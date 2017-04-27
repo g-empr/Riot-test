@@ -15,7 +15,6 @@
       <style scoped>
         bar {
           position: fixed;
-          top: 0;
         }
         ul {
           list-style-type: none;
