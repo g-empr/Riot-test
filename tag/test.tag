@@ -13,7 +13,7 @@
       ]
 
       <style scoped>
-        {
+        menu {
           padding: 0;
         }
         ul {
