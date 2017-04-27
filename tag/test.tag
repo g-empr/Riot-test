@@ -11,9 +11,9 @@
         { title: 'PROFILE', url: 'hogehoge.jp' },
         { title: 'WORKS', url: 'hogehoge.jp' }
       ]
-      
+
       <style scoped>
-        menu {
+        {
           padding: 0;
         }
         ul {
