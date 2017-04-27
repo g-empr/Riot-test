@@ -30,6 +30,7 @@
         }
         a {
           text-decoration: none;
+          font-size: 12px;
           color: #222;
           padding: 4px 22px;
           border-left: 1px solid #000;
