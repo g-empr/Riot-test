@@ -84,7 +84,7 @@
           display: flex;
           justify-content: center;
         }
-        item {
+        div.item {
           width: 100px;
           height: 100px;
           background: #666;
