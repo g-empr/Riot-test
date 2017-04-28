@@ -43,6 +43,10 @@
           transition: all .3s;
           z-index: 2;
         }
+        a:hover {
+          background: #000;
+          color: #fff;
+        }
         a::before,
         a::after {
           content: '';
