@@ -15,7 +15,7 @@
 
       <style scoped>
         bar {
-          
+          display: flex;
         }
         ul {
           list-style-type: none;

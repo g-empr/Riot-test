@@ -2,7 +2,8 @@
 
 @font-face {
     font-family: HARA;
-    src: url(../font/haranyan_marumi.ttf);
+    src: url('../font/haranyan_marumi.ttf'),
+         url('../font/haranyan_marumi.otf');
 }
 
 .logoFont {

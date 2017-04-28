@@ -1,2 +1,8 @@
-@charset "utf-8";
-
+@font-face {
+  font-family: HARA;
+  src: url("../font/haranyan_marumi.ttf"), url("../font/haranyan_marumi.otf");
+}
+/* line 9, ../scss/main.scss */
+.logoFont {
+  font-family: HARA;
+}
