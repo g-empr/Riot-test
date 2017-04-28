@@ -93,11 +93,11 @@
           margin: 0 auto;
         }
         div.item {
-          display: inline-block;
           background: #666;
           margin: 5px;
         }
         div.item a {
+          display: inline-block;
           width: 180px;
           height: 180px;
           text-decoration: none;
