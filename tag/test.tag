@@ -24,10 +24,6 @@
         }
         li {
           display: inline-block;
-          border-left: 1px solid #000;
-        }
-        li:last-child {
-          border-right: 1px solid #000;
         }
         li:first-child::before {
           content: 'てすとさいと';
