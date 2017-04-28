@@ -38,9 +38,12 @@
           text-decoration: none;
           font-size: 12px;
           line-height: 24px;
-          color: #222;
+          color: #000;
           padding: 4px 22px;
           transition: all .3s;
+        }
+        a:hover {
+          color: #fff;
         }
         a::before,
         a::after {
@@ -50,7 +53,7 @@
           top: 0;
           width: 50%;
           height: 100%;
-          background-color: #333;
+          background-color: #fff;
           transition: all .3s;
         }
         a::before {
@@ -62,7 +65,7 @@
         a:hover::before,
         a:hover::after {
           width: 0;
-          background-color: #59b1eb;
+          background-color: #000;
         }
       </style>
     </bar>
