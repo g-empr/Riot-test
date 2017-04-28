@@ -57,7 +57,7 @@
           height: 100%;
           background: #fff;
           transition: all .3s;
-          z-index: 1;
+          z-index: -1;
         }
         a::before {
           right: 0;
