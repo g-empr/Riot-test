@@ -61,6 +61,28 @@
     
     </bar>
 
+    <titleview>
+    
+      <div id="slick">
+          <div>コンテンツ01</div>
+          <div>コンテンツ02</div>
+          <div>コンテンツ03</div>
+          <div>コンテンツ04</div>
+          <div>コンテンツ05</div>
+      </div>
+    
+      <script src="js/slick/slick.min.js"></script>
+      <script>
+        $(function() {
+            $('#slick').slick();
+        });
+      </script>
+
+      <style scoped>
+
+      </style>
+
+    </titleview>
 
     <item>
       <h1>{title}</h1>
