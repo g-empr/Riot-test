@@ -39,13 +39,13 @@
           font-size: 12px;
           line-height: 24px;
           color: #000;
-          background: #000;
           padding: 4px 22px;
           transition: all .3s;
           z-index: 2;
         }
         a:hover {
           color: #fff;
+          background: #000;
         }
         a::before,
         a::after {
@@ -55,7 +55,7 @@
           top: 0;
           width: 50%;
           height: 100%;
-          background-color: #fff;
+          background: #fff;
           transition: all .3s;
           z-index: -1;
         }
