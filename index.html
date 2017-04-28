@@ -1,35 +1,28 @@
 <!doctype html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.3.18/riot+compiler.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css" integrity="sha256-qNrgGqSO9Xu/fUg5vIi1xwbnOleSZRAidBaJ8U4qEy8=" crossorigin="anonymous" />
+    <title>RiotJS</title>
+    <link rel="stylesheet" href="css/css/main.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  </head>
+  <body>
 
-<head>
-  <meta charset="utf-8" />
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.3.18/riot+compiler.js'></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css" integrity="sha256-qNrgGqSO9Xu/fUg5vIi1xwbnOleSZRAidBaJ8U4qEy8="
-    crossorigin="anonymous" />
-  <title>RiotJS</title>
-  <link rel="stylesheet" href="css/css/main.css">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-</head>
+    <!-- タグの展開 -->
 
-<body>
-
-  <!-- タグの展開 -->
-  <header>
     <bar></bar>
-  </header>
-  <main>
-    <item title="サンプル" caption="サンプルの説明"></item>
-    <item title="サンプルその２" caption="サンプルの説明"></item>
-  </main>
+    <item title="サンプル" caption="サンプルの説明" ></item>
+    <item title="サンプルその２" caption="サンプルの説明" ></item>
 
-  <!-- タグの定義 -->
-  <script type="riot/tag" src="tag/test.tag"></script>
+    <!-- タグの定義 -->
+    <script type="riot/tag" src="tag/test.tag"></script>
 
-  <script>
-    //マウント
-    riot.mount('*');
-  </script>
+    <script>
+      //マウント
+      riot.mount('*');
+    </script>
 
-</body>
-
+  </body>
 </html>

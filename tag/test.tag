@@ -7,9 +7,10 @@
       </ul>
 
       this.items = [
-        { title: 'TOP', url: 'hogehoge.jp' },
+        { title: 'てすとさいと', url: 'hogehoge.jp' },
         { title: 'PROFILE', url: 'hogehoge.jp' },
-        { title: 'WORKS', url: 'hogehoge.jp' }
+        { title: 'WORKS', url: 'hogehoge.jp' },
+        { title: 'NEWS', url: 'hogehoge.jp' }
       ]
 
       <style scoped>
@@ -25,8 +26,7 @@
         li {
           display: inline-block;
         }
-        li:first-child::before {
-          content: 'てすとさいと';
+        li:first-child {
           font-family: HARA;
           font-size: 1.5rem;
           line-height: 1.5rem;
