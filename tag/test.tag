@@ -13,8 +13,9 @@
       ]
 
       <style scoped>
-        bar {
-        }
+      bar {
+        background: red;
+      }
         ul {
           list-style-type: none;
           text-align: center;
@@ -30,6 +31,7 @@
           font-size: 1.5rem;
           line-height: 1.5rem;
           margin-right: 1rem;
+          vertical-align: middle;
         }
         li:last-child a {
           border-right: 1px solid #000;
