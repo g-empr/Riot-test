@@ -34,27 +34,16 @@
           vertical-align: middle;
         }
         a {
-          position: relative;
           text-decoration: none;
           font-size: 12px;
           line-height: 24px;
           color: #000;
           padding: 4px 22px;
           transition: all .3s;
-          z-index: 2;
         }
         a:hover {
           color: #fff;
-        }
-        a::after {
-          top: -100%;
-          width: 100%;
-          height: 100%;
-          transition: all .3s;
-        }
-        a:hover::after {
-          top: 0;
-          background-color: #000;
+          background: #000;
         }
       </style>
     </bar>
