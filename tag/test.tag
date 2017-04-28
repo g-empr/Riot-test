@@ -134,11 +134,11 @@
           border-right: 20px solid transparent;
           height: 0;
         }
-        .heading::efore {
+        .heading::before {
           content: "新着記事";
           position: absolute;
           top: 4px;
-          left: 20px;
+          left: 6px;
         }
         div.item {
           background: #666;
