@@ -33,9 +33,6 @@
           margin-right: 1rem;
           vertical-align: middle;
         }
-        li:last-child a {
-          border-right: 1px solid #000;
-        }
         a {
           position: relative;
           text-decoration: none;
@@ -43,15 +40,12 @@
           line-height: 24px;
           color: #222;
           padding: 4px 22px;
-          border-left: 1px solid #000;
-        }
-        a:hover {
-          background: #000;
-          color: #fff;
-          transition: all .3s linear;
         }
         a::before,
         a::after {
+          content: '';
+          position: absolute;
+          display: block;
           top: 0;
           width: 50%;
           height: 100%;
