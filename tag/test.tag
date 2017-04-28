@@ -71,12 +71,11 @@
           <div>コンテンツ05</div>
       </div>
     
-      <script src="../js/slick/slick.min.js"></script>
+      <script src="../js/slick/slick.min.js">
       <script>
         $(function() {
             $('#slick').slick();
         });
-      </script>
 
       <style scoped>
 
