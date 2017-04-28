@@ -20,10 +20,12 @@
           position: fixed;
           top: 0;
           padding: 0;
+          background: #fff;
         }
         ul {
           list-style-type: none;
           text-align: center;
+          margin: 0 auto;
           padding: 0;
           width: 100%;
         }
