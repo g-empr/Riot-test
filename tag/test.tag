@@ -1,21 +1,23 @@
     
     <bar>
+    <div>
       <ul>
         <li each={items}>
           <a href="{url}">{title}</a>
         </li>
       </ul>
+    </div>
 
       this.items = [
-        { title: 'てすとさいと', url: 'hogehoge.jp' },
-        { title: 'PROFILE', url: 'hogehoge.jp' },
-        { title: 'WORKS', url: 'hogehoge.jp' },
-        { title: 'NEWS', url: 'hogehoge.jp' }
+        { title: 'てすとさいと', url: 'index.html' },
+        { title: 'PROFILE', url: '#' },
+        { title: 'WORKS', url: '#' },
+        { title: 'NEWS', url: '#' }
       ]
 
       <style scoped>
-      bar {
-        background: red;
+      div {
+        padding: 2px 0;
       }
         ul {
           list-style-type: none;
