@@ -44,31 +44,16 @@
           z-index: 2;
         }
         a:hover {
-          background: #000;
           color: #fff;
         }
-        a::before,
         a::after {
-          content: '';
-          position: absolute;
-          display: block;
-          top: 0;
-          width: 50%;
+          top: -100%;
+          width: 100%;
           height: 100%;
-          background: #fff;
-          transition: all .3s;
-          z-index: -1;
         }
-        a::before {
-          right: 0;
-        }
-        a::after {
-          left: 0;
-        }
-        a:hover::before,
         a:hover::after {
-          width: 0;
-          background-color: #fff;
+          top: 0;
+          background-color: #000;
         }
       </style>
     </bar>
