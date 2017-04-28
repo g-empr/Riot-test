@@ -65,7 +65,7 @@
 
     <panel>
     
-      <div class="{uni} box">
+      <div class="{uni} box" style="width:{width}px;">
         <div class="item">item01</div>
         <div class="item">item02</div>
         <div class="item">item03</div>
@@ -78,7 +78,8 @@
         <div class="item">item10</div>
       </div>
 
-      this.uni = opts.uni
+      this.uni = opts.uni;
+      this.width = opts.width;
 
       <style scoped>
         div.box {
