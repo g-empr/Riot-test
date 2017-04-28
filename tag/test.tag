@@ -62,6 +62,7 @@
     </bar>
 
 
+
     <panel>
     
       <div class="{uni} box">
@@ -83,6 +84,7 @@
         div.box {
           display: flex;
           justify-content: center;
+          flex-wrap: wrap;
         }
         div.item {
           width: 180px;
