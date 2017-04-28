@@ -65,19 +65,18 @@
 
     <panel>
     
-      <div class="{uni} box" style="width:{width}px;">
-        <div class="item">item01</div>
-        <div class="item">item02</div>
-        <div class="item">item03</div>
-        <div class="item">item04</div>
-        <div class="item">item05</div>
-        <div class="item">item06</div>
-        <div class="item">item07</div>
-        <div class="item">item08</div>
-        <div class="item">item09</div>
-        <div class="item">item10</div>
+      <div each={block} class="{uni} box" style="width:{width}px;">
+        <div class="item">
+          <a href="{url}">{title}</a>
+        </div>
       </div>
 
+      this.items = [
+        { title: 'にゅーす', url: '#'},
+        { title: 'にゅーす', url: '#'},
+        { title: 'にゅーす', url: '#'},
+        { title: 'にゅーす', url: '#'}
+      ]
       this.uni = opts.uni;
       this.width = opts.width;
 
