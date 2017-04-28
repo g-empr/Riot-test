@@ -109,6 +109,7 @@
         }
         div.item a:hover {
           opacity: 0.7;
+          transition: all .3s;
         }
 
       </style>
