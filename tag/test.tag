@@ -1,12 +1,12 @@
-    
     <bar>
-    <div>
-      <ul>
-        <li each={items}>
-          <a href="{url}">{title}</a>
-        </li>
-      </ul>
-    </div>
+
+      <div>
+        <ul>
+          <li each={items}>
+            <a href="{url}">{title}</a>
+          </li>
+        </ul>
+      </div>
 
       this.items = [
         { title: 'てすとさいと', url: 'index.html' },
@@ -44,20 +44,23 @@
           background: inherit;
           color: inherit;
         }
-        a {
+        li a {
           text-decoration: none;
           font-size: 12px;
           line-height: 24px;
+          font-weight: bold;
           color: #000;
           padding: 4px 22px;
           transition: all .3s;
         }
-        a:hover {
+        li a:hover {
           color: #fff;
           background: #000;
         }
       </style>
+    
     </bar>
+
 
     <item>
       <h1>{title}</h1>
