@@ -1,6 +1,5 @@
     
     <bar>
-      <div class="title logoFont">てすとさいと</div>
       <ul>
         <li each={items}>
           <a href="{url}">{title}</a>
@@ -28,7 +27,9 @@
         li:first-child:before {
           content: 'てすとさいと';
           font-family: HARA;
-          font-size: 1rem;
+          font-size: 1.5rem;
+          line-height: 1.5rem;
+          margin-right: 1rem;
         }
         li:last-child a {
           border-right: 1px solid #000;
