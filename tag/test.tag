@@ -70,14 +70,7 @@
           <div>コンテンツ04</div>
           <div>コンテンツ05</div>
       </div>
-    
-      <script src="../js/slick/slick.min.js">
-      <script>
-        $(function() {
-            $('#slick').slick();
-        });
 
-      <style scoped>
 
       </style>
 
