@@ -96,15 +96,13 @@
           margin: 0 auto;
         }
         div.item {
-          width: 180px;
-          height: 180px;
+          display: inline-block;
           background: #666;
           margin: 5px;
-          color: #fff;
         }
         div.item a {
-          width: 100%;
-          height: 100%;
+          width: 180px;
+          height: 180px;
           text-decoration: none;
           padding: 5px;
           font-size: 1.5rem;
