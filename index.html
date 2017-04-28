@@ -51,22 +51,24 @@
     //    });
     $(function () {
       $('#button').click(
-        function () {
-          $.ajax({
+
+        function hogehoge() {
+          return $.ajax({
             type: "GET",
             dataType: 'json',
-            url: "https://g-empr.github.io/riot/data.json",
-            success: function (json) {
-              var len = json.length;
-              for (var i = 0; i < len; i++) {
-                $('#hogehoge').append(json[i].title + ' ' + json[i].date + '<br>');
-              }
-            },
-            error: function (json) {
-              console.log('エラー');
-            }
+            url: "https://g-empr.github.io/riot/data.json"
           });
         }
+
+        hogehoge().done(function (result) {
+          var len = result.length;
+          for (var i = 0; i < len; i++) {
+            $('#hogehoge').append(result[i].title + ' ' + result[i].date + '<br>');
+          }
+        }).fail(function (result) {
+          console.log('エラー');
+        });
+
       );
     });
   </script>
