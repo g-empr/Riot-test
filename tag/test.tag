@@ -33,6 +33,10 @@
           margin-right: 1rem;
           vertical-align: middle;
         }
+        li:first-child a:hover {
+          background: inherit;
+          color: inherit;
+        }
         a {
           text-decoration: none;
           font-size: 12px;
