@@ -1,2 +1,10 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: HARA;
+    src: url(../font/haranyan_marumi.ttf);
+}
+
+* {
+    font-family: HARA;
+}
