@@ -54,7 +54,6 @@
         function () {
           $.ajax({
             type: "GET",
-            scriptCharset: 'utf-8',
             dataType: 'json',
             url: "https://g-empr.github.io/riot/data.json",
             success: function (json) {
@@ -63,7 +62,7 @@
                 $('#hogehoge').append(json[i].title + ' ' + json[i].date + '<br>');
               }
             },
-            error: function (data) {
+            error: function (json) {
               console.log('エラー');
             }
           });
