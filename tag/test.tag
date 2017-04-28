@@ -15,7 +15,6 @@
 
       <style scoped>
         bar {
-          display: flex;
         }
         ul {
           list-style-type: none;
@@ -25,6 +24,11 @@
         }
         li {
           display: inline-block;
+        }
+        li:first-child:before {
+          content: 'てすとさいと';
+          font-family: HARA;
+          font-size: 1rem;
         }
         li:last-child a {
           border-right: 1px solid #000;
