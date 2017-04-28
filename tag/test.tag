@@ -39,6 +39,7 @@
           font-size: 12px;
           line-height: 24px;
           color: #000;
+          background: #000;
           padding: 4px 22px;
           transition: all .3s;
           z-index: 2;
