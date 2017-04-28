@@ -26,7 +26,7 @@
         li {
           display: inline-block;
         }
-        li:first-child {
+        li:first-child a {
           font-family: HARA;
           font-size: 1.5rem;
           line-height: 1.5rem;
