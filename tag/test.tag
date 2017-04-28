@@ -97,7 +97,7 @@
     <panel>
     
       <div class="{uni} box" style="max-width:{width}px;padding-top:{topspace}px;">
-        <div class="heading">新着記事</div>
+        <div class="heading"></div>
         <div　each={article} class="item">
           <a href="{url}">{title}</a>
         </div>
@@ -132,6 +132,12 @@
           border-top: 80px solid #000;
           border-right: 20px solid transparent;
           height: 0;
+        }
+        .heading:before {
+          content: "新着記事";
+          position: absolute;
+          top: 4px;
+          left: 20px;
         }
         div.item {
           background: #666;
