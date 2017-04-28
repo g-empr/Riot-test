@@ -128,7 +128,7 @@
         .heading {
           color: #fff;
           position: absolute;
-          top: 0;
+          top: -10px;
           left: 0;
           width: 100px;
           border-top: 35px solid #000;
