@@ -41,6 +41,7 @@
           color: #000;
           padding: 4px 22px;
           transition: all .3s;
+          z-index: 2;
         }
         a::before,
         a::after {
@@ -52,6 +53,7 @@
           height: 100%;
           background: #fff;
           transition: all .3s;
+          z-index: 1;
         }
         a::before {
           right: 0;
