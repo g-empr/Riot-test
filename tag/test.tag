@@ -104,6 +104,8 @@
           padding: 5px;
           font-size: 1.5rem;
           color: #fff;
+          text-align: justify;
+          line-height: 1.8rem;
         }
         div.item a:hover {
           opacity: 0.9;
