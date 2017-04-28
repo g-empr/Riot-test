@@ -85,6 +85,7 @@
           display: flex;
           justify-content: center;
           flex-wrap: wrap;
+          margin: 0 auto;
         }
         div.item {
           width: 180px;
