@@ -130,15 +130,15 @@
           position: absolute;
           top: 0;
           width: 100px;
-          border-top: 80px solid #000;
-          border-right: 20px solid transparent;
+          border-top: 35px solid #000;
+          border-right: 30px solid transparent;
           height: 0;
         }
         .heading::before {
           content: "新着記事";
           position: absolute;
           top: 4px;
-          left: 6px;
+          left: 10px;
         }
         div.item {
           background: #666;
