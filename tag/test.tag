@@ -68,7 +68,7 @@
         a:hover::before,
         a:hover::after {
           width: 0;
-          background-color: #000;
+          background-color: #fff;
         }
       </style>
     </bar>
