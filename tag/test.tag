@@ -1,3 +1,6 @@
+    <!-- 
+      
+    -->
     <bar>
 
       <div>
@@ -12,7 +15,8 @@
         { title: 'てすとさいと', url: 'index.html' },
         { title: 'PROFILE', url: '#' },
         { title: 'WORKS', url: '#' },
-        { title: 'NEWS', url: '#' }
+        { title: 'NEWS', url: '#' },
+        { title: 'BLOG', url: '#' }
       ]
 
       <style scoped>
@@ -61,7 +65,31 @@
     
     </bar>
 
+    <!-- 
+      
+    -->
 
+    <mainview>
+
+      <div>
+        <div class="topVisual">
+
+        <div>
+      </div>
+
+      <style scoped>
+        .topVisual {
+          height: 400px;
+          width: 100%;
+          background: #999;
+        }
+      </style>
+
+    </mainview>
+
+    <!-- 
+      
+    -->
 
     <panel>
     
@@ -116,6 +144,10 @@
 
     </panel>
 
+    <!-- 
+      
+    -->
+
     <item>
     
       <h1>{title}</h1>
@@ -125,3 +157,13 @@
       this.caption = opts.caption;
 
     </item>
+
+
+
+    <leg>
+    
+      <div>
+
+      </div>
+
+    </leg>
