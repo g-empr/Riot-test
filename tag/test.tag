@@ -65,13 +65,13 @@
 
     <panel>
     
-      <div each={block} class="{uni} box" style="width:{width}px;">
-        <div class="item">
+      <div class="{uni} box" style="width:{width}px;">
+        <div　each={article} class="item">
           <a href="{url}">{title}</a>
         </div>
       </div>
 
-      this.items = [
+      this.article = [
         { title: 'にゅーす', url: '#'},
         { title: 'にゅーす', url: '#'},
         { title: 'にゅーす', url: '#'},
