@@ -85,9 +85,10 @@
           justify-content: center;
         }
         div.item {
-          width: 100px;
-          height: 100px;
+          width: 180px;
+          height: 180px;
           background: #666;
+          margin: 5px;
           color: #fff;
         }
 
