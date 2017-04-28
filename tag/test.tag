@@ -50,6 +50,7 @@
           top: -100%;
           width: 100%;
           height: 100%;
+          transition: all .3s;
         }
         a:hover::after {
           top: 0;
