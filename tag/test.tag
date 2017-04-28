@@ -1,6 +1,6 @@
     
     <bar>
-      <div class="title logoFont"><img src="" alt=""></div>
+      <div class="title logoFont">てすとさいと</div>
       <ul>
         <li each={items}>
           <a href="{url}">{title}</a>
