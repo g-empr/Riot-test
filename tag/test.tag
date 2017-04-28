@@ -65,7 +65,7 @@
 
     <panel>
     
-      <div class="{uni} box" style="width:{width}px;padding-top:{topspace}px;">
+      <div class="{uni} box" style="max-width:{width}px;padding-top:{topspace}px;">
         <div　each={article} class="item">
           <a href="{url}">{title}</a>
         </div>
