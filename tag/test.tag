@@ -46,7 +46,6 @@
         }
         a:hover {
           color: #fff;
-          background: #000;
         }
         a::before,
         a::after {
