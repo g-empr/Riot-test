@@ -61,25 +61,46 @@
     
     </bar>
 
-    <titleview>
+
+    <panel>
     
-      <div id="slick">
-          <div>コンテンツ01</div>
-          <div>コンテンツ02</div>
-          <div>コンテンツ03</div>
-          <div>コンテンツ04</div>
-          <div>コンテンツ05</div>
+      <div class="{uni} box">
+        <div class="item">item01</div>
+        <div class="item">item02</div>
+        <div class="item">item03</div>
+        <div class="item">item04</div>
+        <div class="item">item05</div>
+        <div class="item">item06</div>
+        <div class="item">item07</div>
+        <div class="item">item08</div>
+        <div class="item">item09</div>
+        <div class="item">item10</div>
       </div>
 
+      this.uni = opts.uni
+
+      <style scoped>
+        div.box {
+          display: flex;
+          justify-content: center;
+        }
+        item {
+          width: 100px;
+          height: 100px;
+          background: #666;
+          color: #fff;
+        }
 
       </style>
 
-    </titleview>
+    </panel>
 
     <item>
+    
       <h1>{title}</h1>
       <p>{caption}</p>
 
       this.title   = opts.title;
       this.caption = opts.caption;
+
     </item>
