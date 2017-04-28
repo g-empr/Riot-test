@@ -71,7 +71,7 @@
           <div>コンテンツ05</div>
       </div>
     
-      <script src="js/slick/slick.min.js"></script>
+      <script src="../js/slick/slick.min.js"></script>
       <script>
         $(function() {
             $('#slick').slick();
