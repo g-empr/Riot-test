@@ -108,7 +108,7 @@
           line-height: 1.8rem;
         }
         div.item a:hover {
-          opacity: 0.9;
+          opacity: 0.5;
         }
 
       </style>
