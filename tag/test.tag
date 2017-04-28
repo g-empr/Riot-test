@@ -131,13 +131,13 @@
           top: 0;
           width: 100px;
           border-top: 35px solid #000;
-          border-right: 30px solid transparent;
+          border-right: 20px solid transparent;
           height: 0;
         }
         .heading::before {
           content: "新着記事";
           position: absolute;
-          top: 4px;
+          top: -30px;
           left: 10px;
         }
         div.item {
