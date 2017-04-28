@@ -105,6 +105,9 @@
           font-size: 1.5rem;
           color: #fff;
         }
+        div.item a:hover {
+          opacity: 0.9;
+        }
 
       </style>
 
