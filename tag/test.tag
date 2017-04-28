@@ -40,7 +40,7 @@
           line-height: 24px;
           color: #222;
           padding: 4px 22px;
-          transition: all;
+          transition: all .3s;
         }
         a::before,
         a::after {
@@ -51,7 +51,7 @@
           width: 50%;
           height: 100%;
           background-color: #333;
-          transition: all;
+          transition: all .3s;
         }
         a::before {
           right: 0;
