@@ -129,11 +129,12 @@
           color: #fff;
           position: absolute;
           top: 0;
+          width: 100px;
           border-top: 80px solid #000;
           border-right: 20px solid transparent;
           height: 0;
         }
-        .heading:before {
+        .heading::efore {
           content: "新着記事";
           position: absolute;
           top: 4px;
