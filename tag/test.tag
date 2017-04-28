@@ -129,6 +129,7 @@
           color: #fff;
           position: absolute;
           top: 0;
+          left: 0;
           width: 100px;
           border-top: 35px solid #000;
           border-right: 20px solid transparent;
