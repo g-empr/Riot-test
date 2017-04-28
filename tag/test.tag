@@ -16,9 +16,11 @@
       ]
 
       <style scoped>
-      div {
-        padding: 2px 0;
-      }
+        div {
+          position: fixed;
+          top: 0;
+          padding: 0;
+        }
         ul {
           list-style-type: none;
           text-align: center;
