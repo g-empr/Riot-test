@@ -1,6 +1,6 @@
     
     <bar>
-      <div class="title"><img src="" alt=""></div>
+      <div class="title logoFont"><img src="" alt=""></div>
       <ul>
         <li each={items}>
           <a href="{url}">{title}</a>
