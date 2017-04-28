@@ -41,11 +41,6 @@
           color: #000;
           padding: 4px 22px;
           transition: all .3s;
-          z-index: 2;
-        }
-        a:hover {
-          color: #fff;
-          background: #000;
         }
         a::before,
         a::after {
@@ -57,7 +52,6 @@
           height: 100%;
           background: #fff;
           transition: all .3s;
-          z-index: -1;
         }
         a::before {
           right: 0;
@@ -68,6 +62,7 @@
         a:hover::before,
         a:hover::after {
           width: 0;
+          background-color: #000;
         }
       </style>
     </bar>
