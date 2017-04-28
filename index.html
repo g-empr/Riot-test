@@ -18,7 +18,7 @@
   <panel uni="hoge" width="800" topspace="30"></panel>
   <hr>
 
-  <button id="button" href="#" onclick="return false;"></button>
+  <button id="button" href="#" onclick="return false;">おす</button>
   <div id="hogehoge"></div>
 
   <!-- riotタグの定義 -->
@@ -58,10 +58,10 @@
             dataType: 'json',
             url: "https://g-empr.github.io/riot/data.json",
             success: function (json) {
-              $('#hogehoge').html(json);
+              console.log('成功');
             },
             error: function (data) {
-              alert('エラー');
+              console.log('エラー');
             }
           });
         }
