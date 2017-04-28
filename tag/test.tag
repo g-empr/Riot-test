@@ -1,5 +1,6 @@
     
     <bar>
+      <div class="title"><img src="" alt=""></div>
       <ul>
         <li each={items}>
           <a href="{url}">{title}</a>
@@ -14,7 +15,7 @@
 
       <style scoped>
         bar {
-          position: fixed;
+          
         }
         ul {
           list-style-type: none;
@@ -31,6 +32,7 @@
         a {
           text-decoration: none;
           font-size: 12px;
+          line-height: 24px;
           color: #222;
           padding: 4px 22px;
           border-left: 1px solid #000;
