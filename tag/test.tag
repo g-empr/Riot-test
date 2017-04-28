@@ -21,7 +21,7 @@
           position: fixed;
           top: 0;
           padding: 5px 0;
-          background: #fff;
+          background: rgba(255,255,255,0.8);
         }
         ul {
           list-style-type: none;
