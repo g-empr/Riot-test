@@ -122,10 +122,20 @@
           justify-content: center;
           flex-wrap: wrap;
           margin: 0 auto;
+          position: relative;
+        }
+        div.box:before {
+          content: '新着記事';
+          position: absolute;
+          top: 0;
+          border-top: 80px solid #000;
+          border-right: 20px solid transparent;
+          height: 0;
         }
         div.item {
           background: #666;
           margin: 5px;
+          border-radius: 5px;
         }
         div.item a {
           display: inline-block;
