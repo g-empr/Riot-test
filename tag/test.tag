@@ -72,10 +72,13 @@
     <mainview>
 
       <div>
-        <div class="topVisual">
+        <div class="topVisual" style="margin-top:{top}px;margin-bottom:{bottom}px;">
 
-        <div>
+        </div>
       </div>
+
+      this.top = opts.top;
+      this.bottom = opts.bottom;
 
       <style scoped>
         .topVisual {
