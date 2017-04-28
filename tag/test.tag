@@ -65,7 +65,7 @@
 
     <panel>
     
-      <div class="{uni} box" style="width:{width}px;">
+      <div class="{uni} box" style="width:{width}px;padding-top:{topspace}px;">
         <div　each={article} class="item">
           <a href="{url}">{title}</a>
         </div>
@@ -79,6 +79,7 @@
       ]
       this.uni = opts.uni;
       this.width = opts.width;
+      this.topspace = opts.topspace;
 
       <style scoped>
         div.box {
@@ -92,6 +93,14 @@
           height: 180px;
           background: #666;
           margin: 5px;
+          color: #fff;
+        }
+        div.item a {
+          width: 100%;
+          height: 100%;
+          text-decoration: none;
+          padding: 5px;
+          font-size: 1.5rem;
           color: #fff;
         }
 
