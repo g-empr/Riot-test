@@ -17,9 +17,10 @@
 
       <style scoped>
         div {
+          width: 100%;
           position: fixed;
           top: 0;
-          padding: 0;
+          padding: 5px 0;
           background: #fff;
         }
         ul {
