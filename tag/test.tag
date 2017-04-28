@@ -25,7 +25,7 @@
         li {
           display: inline-block;
         }
-        li:first-child:before {
+        li:first-child::before {
           content: 'てすとさいと';
           font-family: HARA;
           font-size: 1.5rem;
@@ -37,6 +37,7 @@
           border-right: 1px solid #000;
         }
         a {
+          position: relative;
           text-decoration: none;
           font-size: 12px;
           line-height: 24px;
@@ -48,6 +49,24 @@
           background: #000;
           color: #fff;
           transition: all .3s linear;
+        }
+        a::before,
+        a::after {
+          top: 0;
+          width: 50%;
+          height: 100%;
+          background-color: #333;
+        }
+        a::before {
+          right: 0;
+        }
+        a::after {
+          left: 0;
+        }
+        a:hover::before,
+        a:hover::after {
+          width: 0;
+          background-color: #59b1eb;
         }
       </style>
     </bar>
