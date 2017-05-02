@@ -39,6 +39,7 @@
         function () {
           //初期化 
           $('#hogehoge').empty();
+          $('#button').prop('disabled', true).text('通信が終わるまで押せないよ');
 
           $.ajax({
             type: "GET",
@@ -50,7 +51,8 @@
                 var kiji = json.length;
                 for (var i = 0; i < kiji; i++) {
                   $('#hogehoge').append('<p>' + json[i].title + ' ' + json[i].date + '</p>');
-                }
+                };
+                $('#button').prop('disabled', false).text('通信開始');
               }, 1000);
             },
             //失敗時の処理（エラー表示など）
