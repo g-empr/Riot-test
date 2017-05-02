@@ -31,27 +31,42 @@
   </script>
 
   <!-- Ajax -->
-  <script src="http//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
+    //    $(function () {
+    //      $.ajax({
+    //        type: "GET",
+    //        scriptCharset: 'utf-8',
+    //        dataType: 'json',
+    //        url: "https://g-empr.github.io/riot/data.json",
+    //        success: function (json) {
+    //          var long = jason.length;
+    //
+    //          for (var i = 0; i < len; i++) {
+    //
+    //          }
+    //        },
+    //        error: function () { console.log('Miss..'); }
+    //      });
+    //    });
     $(function () {
-      function getInfo() {
-        return $.ajax({
-          type: 'GET',
-          dataType: 'json',
-          url: 'https://g-empr.github.io/riot/data.json'
-        })
-      }
-
       $('#button').click(
-        getInfo().done(function (result) {
-          var kiji = result.length;
-          for (var i = 0; i < kiji; i++) {
-            $('#hogehoge').append(result[i].title + ' ' + result[i].date + '<br>');
-          }
-        }).fail(function (result) {
-          console.log('エラー');
-        })
-
+        function () {
+          $.ajax({
+            type: "GET",
+            dataType: 'json',
+            url: "https://g-empr.github.io/riot/data.json",
+            success: function (json) {
+              var len = json.length;
+              for (var i = 0; i < len; i++) {
+                $('#hogehoge').append(json[i].title + ' ' + json[i].date + '<br>');
+              }
+            },
+            error: function (json) {
+              console.log('エラー');
+            }
+          });
+        }
       );
     });
   </script>
