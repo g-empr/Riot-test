@@ -26,6 +26,7 @@
           top: 0;
           padding: 5px 0;
           background: rgba(255,255,255,0.8);
+          z-index: 9999;
         }
         ul {
           list-style-type: none;
