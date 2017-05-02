@@ -33,35 +33,26 @@
   <!-- Ajax -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
-    //    $(function () {
-    //      $.ajax({
-    //        type: "GET",
-    //        scriptCharset: 'utf-8',
-    //        dataType: 'json',
-    //        url: "https://g-empr.github.io/riot/data.json",
-    //        success: function (json) {
-    //          var long = jason.length;
-    //
-    //          for (var i = 0; i < len; i++) {
-    //
-    //          }
-    //        },
-    //        error: function () { console.log('Miss..'); }
-    //      });
-    //    });
     $(function () {
       $('#button').click(
         function () {
+          //初期化
+          if(!$('#hogehoge')[0]){
+            $(this).empty();
+          }
+          
           $.ajax({
             type: "GET",
             dataType: 'json',
             url: "https://g-empr.github.io/riot/data.json",
+            //成功時の処理
             success: function (json) {
               var len = json.length;
               for (var i = 0; i < len; i++) {
-                $('#hogehoge').append(json[i].title + ' ' + json[i].date + '<br>');
+                $('#hogehoge').append('<p>'json[i].title + ' ' + json[i].date + '</p>');
               }
             },
+            //失敗時の処理（エラー表示など）
             error: function (json) {
               console.log('エラー');
             }
