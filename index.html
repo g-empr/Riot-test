@@ -36,15 +36,15 @@
     $(function () {
       $('#button').click(
 
-        function hogehoge() {
+        function getInfo() {
           return $.ajax({
-            type: "GET",
+            type: 'GET',
             dataType: 'json',
-            url: "https://g-empr.github.io/riot/data.json"
-          })
-        }
+            url: 'https://g-empr.github.io/riot/data.json'
+          })  
+        },
 
-        hogehoge().done(function (result) {
+        getInfo().done(function (result) {
           var kiji = result.length;
           for (var i = 0; i < kiji; i++) {
             $('#hogehoge').append(result[i].title + ' ' + result[i].date + '<br>');
