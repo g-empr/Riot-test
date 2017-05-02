@@ -47,7 +47,7 @@
             success: function (json) {
               var len = json.length;
               for (var i = 0; i < len; i++) {
-                $('#hogehoge').append('<p>' + json[i].title + ' ' + json[i].date + '</p>');
+                $('.hoge.box .item a').append('<p>' + json[i].title + ' ' + json[i].date + '</p>');
               }
             },
             //失敗時の処理（エラー表示など）
