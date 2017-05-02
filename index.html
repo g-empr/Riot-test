@@ -26,7 +26,7 @@
   <script type="riot/tag" src="tag/test.tag"></script>
 
   <script>
-    //マウント
+    //riotマウント
     riot.mount('*');
   </script>
 
@@ -45,6 +45,7 @@
             type: "GET",
             dataType: 'json',
             url: "https://g-empr.github.io/riot/data.json",
+            timeout: 10000,
             //成功時の処理
             success: function (json) {
               setTimeout(function () {
@@ -57,7 +58,7 @@
             },
             //失敗時の処理（エラー表示など）
             error: function (json) {
-              console.log('取得できませんでした。');
+              alert('取得できませんでした。');
             }
           });
         }
