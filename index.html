@@ -34,16 +34,15 @@
   <script src="http//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
     $(function () {
+      function getInfo() {
+        return $.ajax({
+          type: 'GET',
+          dataType: 'json',
+          url: 'https://g-empr.github.io/riot/data.json'
+        })
+      }
+
       $('#button').click(
-
-        function getInfo() {
-          return $.ajax({
-            type: 'GET',
-            dataType: 'json',
-            url: 'https://g-empr.github.io/riot/data.json'
-          })  
-        },
-
         getInfo().done(function (result) {
           var kiji = result.length;
           for (var i = 0; i < kiji; i++) {
