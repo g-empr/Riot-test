@@ -31,24 +31,8 @@
   </script>
 
   <!-- Ajax -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="http//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
-    //    $(function () {
-    //      $.ajax({
-    //        type: "GET",
-    //        scriptCharset: 'utf-8',
-    //        dataType: 'json',
-    //        url: "https://g-empr.github.io/riot/data.json",
-    //        success: function (json) {
-    //          var long = jason.length;
-    //
-    //          for (var i = 0; i < len; i++) {
-    //
-    //          }
-    //        },
-    //        error: function () { console.log('Miss..'); }
-    //      });
-    //    });
     $(function () {
       $('#button').click(
 
@@ -57,7 +41,7 @@
             type: "GET",
             dataType: 'json',
             url: "https://g-empr.github.io/riot/data.json"
-          });
+          })
         }
 
         hogehoge().done(function (result) {
@@ -67,7 +51,7 @@
           }
         }).fail(function (result) {
           console.log('エラー');
-        });
+        })
 
       );
     });
