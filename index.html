@@ -34,9 +34,10 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
     $(function () {
+
       $('#button').click(
         function () {
-          //初期化
+          //初期化 
           $('#hogehoge').empty();
 
           $.ajax({
@@ -45,10 +46,12 @@
             url: "https://g-empr.github.io/riot/data.json",
             //成功時の処理
             success: function (json) {
-              var kiji = json.length;
-              for (var i = 0; i < kiji; i++) {
-                $('#hogehoge').append('<p>' + json[i].title + ' ' + json[i].date + '</p>');
-              }
+              setTimeout(function () {
+                var kiji = json.length;
+                for (var i = 0; i < kiji; i++) {
+                  $('#hogehoge').append('<p>' + json[i].title + ' ' + json[i].date + '</p>');
+                }
+              }, 1000);
             },
             //失敗時の処理（エラー表示など）
             error: function (json) {
@@ -57,6 +60,7 @@
           });
         }
       );
+
     });
   </script>
 </body>
