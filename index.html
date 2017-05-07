@@ -41,26 +41,30 @@
           $('#hogehoge').empty();
           $('#button').prop('disabled', true).text('通信中...');
 
-          $.ajax({
-            type: "GET",
-            dataType: 'json',
-            url: "https://g-empr.github.io/riot/data.json",
-            timeout: 10000,
-            //成功時の処理
-            success: function (json) {
-              setTimeout(function () {
-                var kiji = json.length;
-                for (var i = 0; i < kiji; i++) {
-                  $('#hogehoge').append('<p>' + json[i].title + ' ' + json[i].date + '</p>');
-                };
-                $('#button').prop('disabled', false).text('おす');
-              }, 1000);
-            },
-            //失敗時の処理（エラー表示など）
-            error: function (json) {
-              alert('取得できませんでした。');
-            }
-          });
+          if (){
+            $.ajax({
+              type: "GET",
+              dataType: 'json',
+              url: "https://g-empr.github.io/riot/data.json",
+              timeout: 10000,
+              //成功時の処理
+              success: function (json) {
+                setTimeout(function () {
+                  var kiji = json.length;
+                  for (var i = 0; i < kiji; i++) {
+                    $('#hogehoge').append('<p>' + json[i].title + ' ' + json[i].date + '</p>');
+                  };
+                  $('#button').prop('disabled', false).text('りろーど');
+                }, 1000);
+              },
+              //失敗時の処理（エラー表示など）
+              error: function (json) {
+                alert('取得できませんでした。');
+              }
+            });
+
+          };
+
         }
       );
 
