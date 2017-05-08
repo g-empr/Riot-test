@@ -12,14 +12,15 @@
 <body>
 
   <!-- タグの展開 -->
-
   <bar></bar>
   <mainview top="60" bottom="20"></mainview>
   <panel uni="hoge" width="800" topspace="30"></panel>
   <hr>
 
-  <button id="button" href="#" onclick="return false;">おす</button>
-  <div id="hogehoge"></div>
+  <div class="articleBox">
+    <button id="button" href="#" onclick="return false;">更新</button>
+    <div id="hogehoge"></div>
+  </div>
 
   <!-- riotタグの定義 -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.3.18/riot+compiler.js'></script>
@@ -51,9 +52,9 @@
               setTimeout(function () {
                 var kiji = json.length;
                 for (var i = 0; i < kiji; i++) {
-                  $('#hogehoge').append('<p>' + json[i].title + ' ' + json[i].date + '</p>');
+                  $('#hogehoge').append('<li><a>' + json[i].title + ' ' + json[i].date + '</a></li>');
                 };
-                $('#button').prop('disabled', false).text('りろーど');
+                $('#button').prop('disabled', false).text('リロード');
               }, 1000);
             },
             //失敗時の処理（エラー表示など）

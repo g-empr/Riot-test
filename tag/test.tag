@@ -137,7 +137,7 @@
           height: 0;
         }
         .heading::before {
-          content: "新着記事";
+          content: "注目記事";
           position: absolute;
           top: -30px;
           left: 10px;
