@@ -38,7 +38,7 @@
 
       $('#button').click(
         function () {
-          //初期化 
+          //初期化
           $('#hogehoge').empty();
           $('#button').prop('disabled', true).text('通信中...');
 
@@ -52,7 +52,7 @@
               setTimeout(function () {
                 var kiji = json.length;
                 for (var i = 0; i < kiji; i++) {
-                  $('#hogehoge').append('<li><a href="#">' + json[i].title + ' ' + json[i].date + '</a></li>');
+                  $('#hogehoge').append('<li><a href="' + json[i].url + '">' + json[i].title + ' ' + json[i].date + '</a></li>');
                 };
                 $('#button').prop('disabled', false).text('リロード');
               }, 1000);

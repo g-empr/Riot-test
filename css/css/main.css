@@ -13,3 +13,9 @@ body {
 ul {
   list-style-type: none;
 }
+
+/* line 17, ../scss/main.scss */
+ul a {
+  text-decoration: none;
+  color: #000;
+}
