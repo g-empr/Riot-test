@@ -8,3 +8,8 @@
 body {
   font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
 }
+
+/* line 14, ../scss/main.scss */
+ul {
+  list-style-type: none;
+}
